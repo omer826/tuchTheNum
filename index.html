@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tekundoo</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   
+    <div class="modal">
+        <button class="button" onclick="StartGame()">Play</button>
+        <h2>Tocuh the number</h2>
+    </div>
+    <header>
+            <img class="logo-image" src="img/number.png" >
+    </header>
+    <main>
+
+   
+    <div class="details">
+        <button class="newGameButton" onclick="resetGame()">new game</button>
+        <br>
+        <p class="gameData">Next number:
+            <span class="nextNumber"></span>
+        </p>
+        <p class="gameData">Time:
+            <span class="time">0</span>
+        </p>
+        <p class="gameData">Prev Time:
+            <span class="Prevtime">0</span>
+            <br/>
+        </p>
+    </div>
+    <div class="classLevel">
+        <h2> Choose your level</h2>
+        <input type="radio" name="level" value="16" checked=true> Easy
+        <input type="radio" name="level" value="25"> Hard
+        <input type="radio" name="level" value="36"> Extrem
+     
+    </div>
+    <div class="div-table">
+        <table class="board">
+
+        </table>
+    </div>
+</main>
+
+    <script src=js/main.js></script>
+
+</body>
+
+</html>
